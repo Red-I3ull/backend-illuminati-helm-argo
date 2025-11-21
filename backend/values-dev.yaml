@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: "221416552528.dkr.ecr.us-east-1.amazonaws.com/illuminati-django-backend"
   pullPolicy: Always
-  tag: "v-17"
+  tag: "v-18"
 
 service:
   type: ClusterIP
