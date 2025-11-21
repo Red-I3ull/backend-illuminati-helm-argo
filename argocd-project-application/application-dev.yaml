@@ -12,7 +12,7 @@ spec:
   source:
     path: backend
     repoURL: https://github.com/Red-I3ull/backend-illuminati-helm-argo.git
-    targetRevision: BULL-51-create-repo-for-backend-and-application-for-argocd-and-deploy-back
+    targetRevision: HEAD
     helm:
       valueFiles:
         - values-dev.yaml
