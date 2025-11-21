@@ -22,7 +22,7 @@ spec:
         consul.hashicorp.com/connect-inject: "true"
         consul.hashicorp.com/service-meta-version: "v1"
     spec:
-      automountServiceAccountToken: false
+{{/*      automountServiceAccountToken: false*/}}
       containers:
         - name: backend
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
