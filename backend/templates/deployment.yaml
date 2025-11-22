@@ -23,7 +23,7 @@ spec:
         consul.hashicorp.com/service-meta-version: "v1"
     spec:
 {{/*      automountServiceAccountToken: false*/}}
-      serviceAccountName: backend
+      serviceAccountName: illuminati-backend-dev
       containers:
         - name: backend
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
