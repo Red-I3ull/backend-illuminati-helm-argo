@@ -1,4 +1,4 @@
-# Frontend Application Helm Chart
+# Backend Application Helm Chart
 
 This Helm chart manages the deployment of the "Illuminati" Backend application and ArgoCD on Kubernetes.
 
