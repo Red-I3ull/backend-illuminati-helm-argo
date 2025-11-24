@@ -6,6 +6,7 @@ image:
   tag: "v-18"
 
 service:
+  name: backend
   type: ClusterIP
   port: 8000
   targetPort: 8000
